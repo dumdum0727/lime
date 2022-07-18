@@ -56,6 +56,9 @@
                             @endif
                         @else
                         <li>
+                            <a href="home" class="nav-link">ホームへ</a>
+                        </li>
+                        <li>
                             <a href="serch" class="nav-link">友達登録</a>
                         </li>
                             <li class="nav-item dropdown">
