@@ -16,8 +16,8 @@ class FreindController extends Controller
     {
         if ($request->email != Auth::user()->email) {
             $friend = User::where('email', $request->email)->first();
-            
-            if (isEmpty($friend)) {
+
+            if ($friend == null) {
                 return view('lime.serch', ['message' => '入力したアドレスのユーザーが見つかりませんでした。']);
             }
 
