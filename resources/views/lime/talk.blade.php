@@ -100,7 +100,7 @@
             display: inline-block;
             position: relative;
             margin: 0;
-            padding: 5px;
+            padding: 5px 10px 5px;
             max-width: 250px;
             border-radius: 12px;
             background: #edf1ee;
@@ -131,7 +131,7 @@
         .mycomment p {
             display: inline-block;
             position: relative;
-            padding: 5px;
+            padding: 5px 10px 5px;
             max-width: 250px;
             border-radius: 12px;
             background: #edf1ee;
@@ -193,4 +193,10 @@
         </div>
     </div>
 </div>
+
+{{-- <script>
+    window.addEventListener('load', function() {
+        setInterval('location.reload()', 10000);
+    });
+</script> --}}
 @endsection
